@@ -1,0 +1,87 @@
+/* style.css */
+:root {
+    --primary-color: #0077b6; /* Xanh dương đậm, chuyên nghiệp */
+    --secondary-color: #4CAF50; /* Xanh lá cây, cho nút hành động */
+    --background-color: #f4f7f6;
+    --text-color: #333;
+    --header-color: #1a2a3a; /* Xám đen đậm */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* --- Header & Navigation --- */
+header {
+    background-color: var(--header-color);
+    color: white;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffc107; /* Vàng sáng */
+}
+
+/* --- Các thành phần chung --- */
+h2, h3 {
+    color: var(--primary-color);
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+.section-padding {
+    padding: 40px 0;
+}
+
+/* --- Nút Hành động (CTA) --- */
+.btn-primary {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: white !important;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #388e3c;
+}
+
+/* --- Footer --- */
+footer {
+    background-color: var(--header-color);
+    color: #bbb;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}

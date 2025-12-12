@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vật Lí Chuyên Sâu - Thầy Hạ Nhất Sĩ</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* CSS cho trang chủ */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('hero_physics.jpg') center/cover no-repeat;
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+        .hero h1 { font-size: 3em; margin-bottom: 10px; }
+        .hero p { font-size: 1.2em; margin-bottom: 30px; }
+        .subject-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .subject-card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-top: 5px solid var(--primary-color);
+            transition: transform 0.3s;
+        }
+        .subject-card:hover { transform: translateY(-5px); }
+        .topic-list {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+            margin-top: 15px;
+        }
+        .topic-list li {
+            padding: 5px 0;
+            border-bottom: 1px dotted #eee;
+            color: #666;
+        }
+        .topic-list a { color: var(--primary-color); text-decoration: none; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>THẦY HẠ NHẤT SĨ - LUYỆN THI HSG VẬT LÍ ONLINE</h1>
+            <nav>
+                <a href="index.html">Trang Chủ</a>
+                <a href="khoahoc.html">Khóa Học & Tài Liệu</a>
+                <a href="gioithieu.html">Giới Thiệu Giáo Viên</a>
+                <a href="lienhe.html">Liên Hệ</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="container">
+            <h1>Mở Khóa Tiềm Năng Vật Lí Cùng Thạc Sĩ Hạ Nhất Sĩ</h1>
+            <p>15 Năm Kinh Nghiệm Bồi Dưỡng HSG & Ôn Thi Chuyên - Thi Olympic Vật Lí.</p>
+            <a href="khoahoc.html" class="btn-primary">Đăng Ký Khóa Học Ngay</a>
+        </div>
+    </div>
+
+    <div class="container section-padding">
+        <h2>📚 Mục Lục Bài Giảng Miễn Phí (Cơ Bản)</h2>
+        <p style="text-align: center; color: #666;">Các chủ đề dưới đây cung cấp kiến thức nền tảng và cơ bản về từng dạng. Để học chuyên sâu và giải các dạng nâng cao, vui lòng xem mục Khóa Học.</p>
+
+        <div class="subject-grid">
+            
+            <div class="subject-card">
+                <h3>Vật Lí THCS & Ôn Thi Chuyên Lí</h3>
+                <p>15 Chủ đề cốt lõi Bồi dưỡng HSG Vật Lí 9 và luyện thi vào 10 chuyên Lí.</p>
+                <ul class="topic-list">
+                    <li><a href="baihoc_thcs_1.html">1. Cơ học: Động học Chất điểm</a></li>
+                    <li><a href="baihoc_thcs_2.html">2. Nhiệt học: Cân bằng Nhiệt</a></li>
+                    <li><a href="baihoc_thcs_3.html">3. Quang học: Gương & Thấu kính</a></li>
+                    <li>... 12 Chủ đề khác ...</li>
+                    <li><a href="khoahoc.html">👉 Xem Khóa Học Nâng Cao</a></li>
+                </ul>
+            </div>
+            
+            <div class="subject-card">
+                <h3>Vật Lí THPT & Thi Olympic</h3>
+                <p>15 Chủ đề nâng cao cho HSG lớp 10, 11, 12 và chuẩn bị cho Olympic Vật Lí.</p>
+                <ul class="topic-list">
+                    <li><a href="baihoc_thpt_1.html">1. Cơ học: Dao động & Sóng Cơ</a></li>
+                    <li><a href="baihoc_thpt_2.html">2. Điện học: Mạch RLC nâng cao</a></li>
+                    <li><a href="baihoc_thpt_3.html">3. Quang học: Lượng tử Ánh sáng</a></li>
+                    <li>... 12 Chủ đề khác ...</li>
+                    <li><a href="khoahoc.html">👉 Xem Khóa Học Nâng Cao</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Thầy Hạ Nhất Sĩ. Chuyên Vật Lí Học Sinh Giỏi. | <a href="lienhe.html" style="color: #bbb;">Liên hệ</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>

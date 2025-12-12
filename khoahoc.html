@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khóa Học Vật Lí Chuyên Sâu & Tài Liệu</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* CSS cho trang khóa học */
+        .course-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .course-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: left;
+            transition: box-shadow 0.3s;
+        }
+        .course-card:hover {
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        .course-info {
+            padding: 20px;
+        }
+        .course-info h3 {
+            color: var(--header-color);
+            margin-top: 0;
+            border-bottom: none;
+        }
+        .price {
+            font-size: 1.5em;
+            color: #e63946; /* Màu đỏ nổi bật */
+            font-weight: bold;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>THẦY HẠ NHẤT SĨ - LUYỆN THI HSG VẬT LÍ ONLINE</h1>
+            <nav>
+                <a href="index.html">Trang Chủ</a>
+                <a href="khoahoc.html">Khóa Học & Tài Liệu</a>
+                <a href="gioithieu.html">Giới Thiệu Giáo Viên</a>
+                <a href="lienhe.html">Liên Hệ</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container section-padding">
+        <h2>🔥 Các Khóa Học & Tài Liệu Độc Quyền</h2>
+        <p style="text-align: center; color: #666;">Các khóa học chuyên sâu được thiết kế từ kinh nghiệm 15 năm luyện thi HSG của Thầy Hạ Nhất Sĩ. Đăng ký để sở hữu hệ thống kiến thức và phương pháp giải đề độc quyền.</p>
+
+        <div class="course-grid">
+            
+            <div class="course-card">
+                <div class="course-info">
+                    <h3>KHÓA GOLD: Ôn Thi Chuyên Lí 9-10</h3>
+                    <p>Bộ 15 Chuyên đề Vật lí THCS nâng cao, tập trung luyện 5 dạng bài khó nhất trong đề thi Chuyên Lí.</p>
+                    <ul>
+                        <li>120+ Video bài giảng chuyên sâu.</li>
+                        <li>500+ Bài tập tự luyện có lời giải chi tiết.</li>
+                        <li>Được Thầy Sĩ hỗ trợ giải đáp 1-1.</li>
+                    </ul>
+                    <div class="price">3.500.000 VNĐ</div>
+                    <a href="lienhe.html" class="btn-primary">Đăng Ký Khóa Học</a>
+                </div>
+            </div>
+            
+            <div class="course-card">
+                <div class="course-info">
+                    <h3>KHÓA PLATINUM: Bồi Dưỡng Olympic Vật Lí</h3>
+                    <p>Chương trình dành cho HSG THPT (10-12), đi sâu vào Vật lí Lý thuyết và Vật lí Toán ứng dụng.</p>
+                    <ul>
+                        <li>Hệ thống 15 chủ đề theo chuẩn Olympic Quốc gia.</li>
+                        <li>Tài liệu chuyên đề độc quyền (PDF/Ebook).</li>
+                        <li>Thi thử & chữa đề chuyên sâu.</li>
+                    </ul>
+                    <div class="price">4.900.000 VNĐ</div>
+                    <a href="lienhe.html" class="btn-primary">Đăng Ký Khóa Học</a>
+                </div>
+            </div>
+
+             <div class="course-card">
+                <div class="course-info">
+                    <h3>Tài Liệu: 50 Dạng Toán Vật Lí Chọn Lọc</h3>
+                    <p>Bộ tài liệu tổng hợp các dạng bài khó, mẹo và thủ thuật giải nhanh, áp dụng được cho cả 2 khối.</p>
+                    <ul>
+                        <li>File PDF chất lượng cao, có thể in ấn.</li>
+                        <li>50 Dạng tiêu biểu nhất.</li>
+                        <li>Cập nhật trọn đời.</li>
+                    </ul>
+                    <div class="price">500.000 VNĐ</div>
+                    <a href="lienhe.html" class="btn-primary">Mua Tài Liệu</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Thầy Hạ Nhất Sĩ. Chuyên Vật Lí Học Sinh Giỏi. | <a href="lienhe.html" style="color: #bbb;">Liên hệ</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
